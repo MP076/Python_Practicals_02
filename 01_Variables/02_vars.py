@@ -49,8 +49,10 @@ message = 111
 hash_code = 346728236
 secret_message = message * hash_code
 print("secret_message:", secret_message)
+# O/p:
 # secret_message: 38486834196
 
 decrypted_message = secret_message / hash_code
 print("decrypted_message:", decrypted_message)
+# O/p:
 # decrypted_message: 111.0
