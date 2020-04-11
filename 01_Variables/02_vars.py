@@ -12,7 +12,7 @@ print(message)
 
 # Another Reassignment example -
 # 04
-a = 1000
+a = 100
 print("a =", a)
 a += a
 print("a =", a)
@@ -28,7 +28,7 @@ print("a =", a)
 # NameError: name 'mesage' is not defined
 
 # 06
-mesage = "Hello Python Crash Course reader!"
+mesage = "Python Crash Course!"
 print(mesage)
 # O/p:
 # "Hello Python Crash Course reader!"
@@ -50,11 +50,11 @@ print("decrypted_message:", decrypted_message)
 #
 # Hello Python World!
 #
-# a = 1000
-# a = 2000
-# a = 4000
+# a = 100
+# a = 200
+# a = 400
 #
-# Hello Python Crash Course reader!
+# Python Crash Course!
 #
 # secret_message: 38486834196
 # decrypted_message: 111.0
