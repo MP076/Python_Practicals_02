@@ -47,10 +47,14 @@ print("decrypted_message:", decrypted_message)
 
 # O/p:
 # Hello World!
+#
 # Hello Python World!
+#
 # a = 1000
 # a = 2000
 # a = 4000
+#
 # Hello Python Crash Course reader!
+#
 # secret_message: 38486834196
 # decrypted_message: 111.0
