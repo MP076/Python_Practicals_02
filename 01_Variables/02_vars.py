@@ -16,6 +16,7 @@ print(message)
 # Hello Python Crash Course world!
 
 # Another Reassignment example -
+# 04
 a = 1000
 print("a =", a)
 a += a
@@ -29,20 +30,21 @@ print("a =", a)
 
 
 # Avoiding Name Errors When Using Variables --
-# 04: error
+# 05: error
 # message = "Hello Python Crash Course reader!"
 # print(mesage)
 # O/p:
 # NameError: name 'mesage' is not defined
 
-# 05
+# 06
 mesage = "Hello Python Crash Course reader!"
 print(mesage)
 # O/p:
 # "Hello Python Crash Course reader!"
 
 
-# Simple Encryption and Decryption Example
+# Simple Encryption and Decryption Example -
+# 07
 message = 111
 hash_code = 346728236
 secret_message = message * hash_code
