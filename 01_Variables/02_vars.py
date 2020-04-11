@@ -3,17 +3,12 @@
 # 02
 message = "Hello World!"
 print(message)
-# O/p:
-# Hello Python world!
 
 
 # Reassignment with the same var --
 # 03
 message = "Hello Python World!"
 print(message)
-# O/p:
-# Hello Python world!
-# Hello Python Crash Course world!
 
 # Another Reassignment example -
 # 04
@@ -23,10 +18,6 @@ a += a
 print("a =", a)
 a += a
 print("a =", a)
-# O/p:
-# a = 1000
-# a = 2000
-# a = 4000
 
 
 # Avoiding Name Errors When Using Variables --
@@ -49,10 +40,17 @@ message = 111
 hash_code = 346728236
 secret_message = message * hash_code
 print("secret_message:", secret_message)
-# O/p:
-# secret_message: 38486834196
 
 decrypted_message = secret_message / hash_code
 print("decrypted_message:", decrypted_message)
+
+
 # O/p:
+# Hello World!
+# Hello Python World!
+# a = 1000
+# a = 2000
+# a = 4000
+# Hello Python Crash Course reader!
+# secret_message: 38486834196
 # decrypted_message: 111.0
