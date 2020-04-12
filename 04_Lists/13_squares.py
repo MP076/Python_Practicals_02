@@ -25,6 +25,7 @@ print(sum(digits))
 
 
 # List Comprehensions --
+# Allows quick construction of a list.
 # 98
 squares = [value ** 2 for value in range(1, 11)]
 print(squares)
