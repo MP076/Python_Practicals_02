@@ -6,15 +6,25 @@ cars.sort()
 print(cars)
 
 
-# Reverse sorting --
+# Remember, sorting occurs but does not return it --
 # 76
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+sorted_cars = cars.sort()
+print(sorted_cars)
+print(type(sorted_cars))
+
+# None is a special object used to indicate no value.
+# It is the return value of a function/method that does not actually return any value.
+
+# Reverse sorting --
+# 77
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort(reverse=True)
 print(cars)
 
 
 # Sorting a List Temporarily with the sorted() Function --
-# 77
+# 78
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 
 print("Here is the original list:")
@@ -28,7 +38,7 @@ print(cars)
 
 
 # Printing a List in Reverse Order --
-# 78
+# 79
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 
@@ -37,13 +47,16 @@ print(cars)
 
 
 # Finding the Length of a List --
-# 79
+# 80
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(len(cars))
 
 
 # O/p:
 # ['audi', 'bmw', 'subaru', 'toyota']
+#
+# None
+# <class 'NoneType'>
 #
 # ['toyota', 'subaru', 'bmw', 'audi']
 #
