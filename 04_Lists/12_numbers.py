@@ -14,6 +14,11 @@ print("\n")
 # 93
 numbers = list(range(1, 6))
 print(numbers)
+print("\n")
+
+# 94
+even_numbers = list(range(2, 11, 2))
+print(even_numbers)
 
 
 # O/p:
@@ -29,3 +34,5 @@ print(numbers)
 # 5
 #
 # [1, 2, 3, 4, 5]
+#
+# [2, 4, 6, 8, 10]
