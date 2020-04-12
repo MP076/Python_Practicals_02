@@ -52,6 +52,15 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(len(cars))
 
 
+# Nested List example--
+# 81
+new_list = [1, 2, 3, ['a', 'b', 'c']]
+print("new_list =", new_list)
+print("type(new_list): ", type(new_list))
+print("new_list[3] =", new_list[3])
+print("new_list[3][0] =", new_list[3][0])
+
+
 # O/p:
 # ['audi', 'bmw', 'subaru', 'toyota']
 #
@@ -74,3 +83,8 @@ print(len(cars))
 # ['subaru', 'toyota', 'audi', 'bmw']
 #
 # 4
+#
+# new_list = [1, 2, 3, ['a', 'b', 'c']]
+# type(new_list):  <class 'list'>
+# new_list[3] = ['a', 'b', 'c']
+# new_list[3][0] = a
