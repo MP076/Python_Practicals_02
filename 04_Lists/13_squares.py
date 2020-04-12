@@ -16,7 +16,7 @@ for value in range(1, 11):
 print(squares)
 
 
-# Simple Statistics with a List of Numbers --
+# Simple Statistics with a List of Numbers (Minimum, Maximum and Sum)--
 # 97
 digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 print(min(digits))
