@@ -22,6 +22,19 @@ for username, user_info in users.items():
     print("\tLocation: " + location.title())
 
 
+# Methods --
+code_names = {
+    "Obama": 'Renegade',
+    "Bush": 'Trailblazer',
+    "Reagan": "Rawhide",
+    "Ford": "Passkey"
+}
+
+print("code_names.keys() =", code_names.keys())
+print("code_names.values() =", code_names.values())
+print("code_names.items() =", code_names.items())
+
+
 # O/p:
 # Username: einstein
 # 	Full name: Albert Einstein
@@ -30,4 +43,8 @@ for username, user_info in users.items():
 # Username: mcurie
 # 	Full name: Marie Curie
 # 	Location: Paris
-
+#
+# code_names.keys() = dict_keys(['Obama', 'Bush', 'Reagan', 'Ford'])
+# code_names.values() = dict_values(['Renegade', 'Trailblazer', 'Rawhide', 'Passkey'])
+# code_names.items() = dict_items([('Obama', 'Renegade'), ('Bush', 'Trailblazer'), ('Reagan', 'Rawhide'),
+# ('Ford', 'Passkey')])
