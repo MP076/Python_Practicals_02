@@ -25,6 +25,12 @@ while current_number <= 5:
 # Be careful with while loops! There is a potential to write a condition that always remains True,
 # meaning you have an infinite running while loop. If this happens to you, try using Ctrl+C to kill the loop.
 
+# Avoiding Infinite Loops --
+# 199
+# x = 1
+# while x <= 5:
+#     print(x)
+
 
 # O/p:
 # 1
