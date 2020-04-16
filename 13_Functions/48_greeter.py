@@ -17,9 +17,3 @@ greet_user()
 #
 #
 # greet_user('joey')
-
-
-# O/p:
-# Hello World!
-#
-# Hello, Joey!
